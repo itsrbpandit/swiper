@@ -1,5 +1,40 @@
 # Changelog
 
+# [11.1.9](https://github.com/nolimits4web/Swiper/compare/v11.1.8...v11.1.9) (2024-07-31)
+
+### Bug Fixes
+
+- **core:** fix loop missing slides with centeredSlides ([4847fcb](https://github.com/nolimits4web/Swiper/commit/4847fcba5dbe34caa91ea23b0bb72c8d40da0e63)), closes [#7584](https://github.com/nolimits4web/Swiper/issues/7584)
+- **core:** fix types of swiper-effect-utils.d.ts ([#7655](https://github.com/nolimits4web/Swiper/issues/7655)) ([4875f26](https://github.com/nolimits4web/Swiper/commit/4875f26163c016469e599abd3d5e0a05b3838959))
+- **mousewheel:** fix issue with event handling after Swiper was destroyed ([82ae434](https://github.com/nolimits4web/Swiper/commit/82ae4346800b96bdb435cb97bed34beebbb1f359)), closes [#7654](https://github.com/nolimits4web/Swiper/issues/7654)
+
+### Features
+
+- add types for minTranslate and maxTranslate functions ([#7647](https://github.com/nolimits4web/Swiper/issues/7647)) ([450c57a](https://github.com/nolimits4web/Swiper/commit/450c57a4c6d651207e4f79ffe7ac823ab2cfcb63))
+
+# [11.1.8](https://github.com/nolimits4web/Swiper/compare/v11.1.7...v11.1.8) (2024-07-26)
+
+### Bug Fixes
+
+- **core:** fixed typo in utils/elementIsChildOf ([#7649](https://github.com/nolimits4web/Swiper/issues/7649)) ([575e715](https://github.com/nolimits4web/Swiper/commit/575e71593bac73f8db64730cce2323f660006489))
+
+# [11.1.7](https://github.com/nolimits4web/Swiper/compare/v11.1.6...v11.1.7) (2024-07-24)
+
+### Bug Fixes
+
+- **core:** fix element child detection ([7ec975c](https://github.com/nolimits4web/Swiper/commit/7ec975c8550bfebacc7ecd032dc540e720f45175)), closes [#7636](https://github.com/nolimits4web/Swiper/issues/7636)
+
+# [11.1.6](https://github.com/nolimits4web/Swiper/compare/v11.1.5...v11.1.6) (2024-07-23)
+
+### Bug Fixes
+
+- **controller:** fix 2 way control in element ([6eec16b](https://github.com/nolimits4web/Swiper/commit/6eec16bfe1f103bd19bad6dec0a7aa3fb3ee2bb1)), closes [#7628](https://github.com/nolimits4web/Swiper/issues/7628)
+
+### Features
+
+- **a11y:** added new prop for a11y module - `scrollOnFocus` ([#7632](https://github.com/nolimits4web/Swiper/issues/7632)) ([f4f7da0](https://github.com/nolimits4web/Swiper/commit/f4f7da0260f1b03ab5f168b84a3b74ef8e2a7a26))
+- **element:** added support for using slots as swiper wrappers ([#7624](https://github.com/nolimits4web/Swiper/issues/7624)) ([e374e06](https://github.com/nolimits4web/Swiper/commit/e374e06a930bef74658614900bb1e11c5a54b189))
+
 # [11.1.5](https://github.com/nolimits4web/Swiper/compare/v11.1.4...v11.1.5) (2024-07-15)
 
 ### Bug Fixes
